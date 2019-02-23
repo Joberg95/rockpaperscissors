@@ -5,7 +5,7 @@ describe('Your test case description', () => {
     let array
 
     beforeEach(() => {
-        // assign values to your variables
+        // assign values to your letiables
         array = new Array(2, 3)
     });
 

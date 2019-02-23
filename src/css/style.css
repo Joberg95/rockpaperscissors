@@ -1,0 +1,18 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    background: #222;
+    color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn {
+    text-align: justify;
+}

@@ -4,13 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Puppeteer Mocha Scaffold</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>RPS</title>
 </head>
 <body>
-    <script type='text/javascript'  src="./js/rock_paper_scissors.js"></script>
+    <h1>Rock Paper Scissors</h1>
+    <div class="btn" >
+            <div class="button">
+            <img src="https://image.flaticon.com/icons/svg/1538/1538638.svg" alt="rock" value="rock" id="rock"/>	 
+            </div>
+            <div class="button">
+            <img src="https://image.flaticon.com/icons/svg/1501/1501388.svg" alt="paper" value="paper" id="paper"/>	 
+            </div>
+            <div class="button">
+            <img src="https://www.flaticon.com/premium-icon/icons/svg/922/922809.svg" alt="scissors" value="scissors" id="scissors"/>	              
+            </div>
+        </div>        
+    <div class= "text-center" id="result"></div>
+    <script type='text/javascript'  src="src/js/rock_paper_scissors.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', () => { 
-            let rps = new RockPaperScissors 
+            let rps = new rockPaperScissors 
             let rock = document.getElementById('rock') 
             let paper = document.getElementById('paper') 
             let scissors = document.getElementById('scissors')
