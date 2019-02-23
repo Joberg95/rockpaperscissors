@@ -5,4 +5,4 @@ global.browser = new BrowserHelpers()
 global.expect = chai.expect;
 
 let rps = fs.readFileSync('src/js/rock_paper_scissors.js');
-eval( rps + `\nexports.rockPaperScissors = RockPaperScissors;`)
+eval( rps + `\nexports.rockPaperScissors = rockPaperScissors;`)

@@ -12,19 +12,19 @@
     <h1>Rock Paper Scissors</h1>
     <div class="game-rules">
         <h3>Game Rules!</h3>
-        <ul>These are not the droids you're looking for = Tie.</ul>
-        <ul>Scissors cuts paper.</ul>
-        <ul>Paper covers rock.</ul>
+            <ul>These are not the droids you're looking for = Tie.</ul>
+                <ul>Scissors cuts paper.</ul>
+            <ul>Paper covers rock.</ul>
         <ul>Rock crushes scissors.</ul>
     </div>
     <div class="btn" >
-            <div class="button">
+        <div class="button">
             <img src="https://i.ebayimg.com/images/g/oeYAAOSwnBRbonwH/s-l64.png" alt="rock" value="rock" id="rock"/>	 
             </div>
-            <div class="button">
-            <img src="https://elderscrollsonline.wiki.fextralife.com/file/Elder-Scrolls-Online/recipe-eso.png" alt="paper" value="paper" id="paper"/>	 
-            </div>
-            <div class="button">
+                <div class="button">
+                    <img src="https://elderscrollsonline.wiki.fextralife.com/file/Elder-Scrolls-Online/recipe-eso.png" alt="paper" value="paper" id="paper"/>	 
+                    </div>
+                <div class="button">
             <img src="src/img/iconfinder_Darth Mauls light-sabers_15781 (1).png" alt="scissors" value="scissors" id="scissors"/>	              
             </div>
         </div>        
@@ -40,17 +40,17 @@
             rock.addEventListener('click', () => { 
                 let result = rps.play("rock")
                 let value = document.getElementById('rock').value
-                displayDiv.innerHTML = result;
+                displayDiv.innerHTML = result
             })
             paper.addEventListener('click', () => { 
                 let result = rps.play("paper")
                 let value = document.getElementById('paper').value
-                displayDiv.innerHTML = result;
+                displayDiv.innerHTML = result
             })
             scissors.addEventListener('click', () => { 
                 let result = rps.play("scissors")
                 let value = document.getElementById('scissors').value
-                displayDiv.innerHTML = result;
+                displayDiv.innerHTML = result
             })
         })
     </script>  
