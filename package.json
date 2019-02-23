@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/nevroje/rockpaperscissors/issues"
   },
-  "homepage": "https://github.com/nevroje/rockpaperscissors#readme"
+  "homepage": "https://github.com/nevroje/rockpaperscissors#readme",
+  "dependencies": {
+    "e2e_training_wheels": "0.0.36"
+  }
 }
