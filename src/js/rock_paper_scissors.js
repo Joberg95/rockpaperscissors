@@ -24,7 +24,7 @@ class rockPaperScissors {
                 case "rock-rock":
                 case "paper-paper":
                 case "scissors-scissors":
-                    return `These are not the droids you're looking for! The droid's choice ${droidChoice}`;
+                    return `These are not the droids you're looking for! The droid's choice was ${droidChoice}`;
             }
         };
     }

@@ -3,6 +3,7 @@ body {
     font-size: 20px;
     background: #222;
     color: antiquewhite;
+    background-image: url('https://wallpapercave.com/wp/wp2903002.jpg');
 }
 
 h1 {
@@ -11,8 +12,24 @@ h1 {
 
 .text-center {
     text-align: center;
+    margin-top: 25px;
+}
+
+.button {
+    text-align: center;
+    margin: 0 10px;
+    padding: 10px;
+    display: inline-block;
 }
 
 .btn {
-    text-align: justify;
+    text-align: center;
+}
+
+.game-rules {
+    font-size: 13px;
+}
+
+h3 {
+    margin-left: 40px;
 }
