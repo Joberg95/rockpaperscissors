@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Puppeteer Mocha Scaffold</title>
+</head>
+<body>
+    <script type='text/javascript'  src="./js/rock_paper_scissors.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => { 
+            let rps = new RockPaperScissors 
+            let rock = document.getElementById('rock') 
+            let paper = document.getElementById('paper') 
+            let scissors = document.getElementById('scissors')
+            let displayDiv = document.getElementById('result')
+            rock.addEventListener('click', () => { 
+                let result = rps.play("rock")
+                let value = document.getElementById('rock').value
+                displayDiv.innerHTML = result;
+            })
+            paper.addEventListener('click', () => { 
+                let result = rps.play("paper")
+                let value = document.getElementById('paper').value
+                displayDiv.innerHTML = result;
+            })
+            scissors.addEventListener('click', () => { 
+                let result = rps.play("scissors")
+                let value = document.getElementById('scissors').value
+                displayDiv.innerHTML = result;
+            })
+        })
+    </script>  
+    </div> 
+</body>
+</html>
