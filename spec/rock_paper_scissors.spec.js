@@ -17,10 +17,17 @@ describe('Rock Paper Scissors', function() {
     it('should return "You Win! The droids choice was paper"', () => {
         expect(rps.play('scissors')).to.eql('You Win! The droids choice was paper')
     })
+
+    it('should return "You Win! The droids choice was rock"', () => {
+        expect(rps.play('paper')).to.eql('These are not the droids youre looking for! The droids choice was paper')
+    })
+
+    it('should return "You Lost! The droids choice was rock"', () => {
+        expect(rps.play('scissors')).to.eql('You Win! The droids choice was paper')
+    })
+
     //TIE
     it('should return "These are not the droids youre looking for! The droids choice was paper"', () => {
         expect(rps.play('paper')).to.eql('These are not the droids youre looking for! The droids choice was paper')
     })
-
-    it('should return "You Win! The droids"')
 })
