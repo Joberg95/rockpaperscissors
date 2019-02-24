@@ -8,7 +8,7 @@ return choices [randomNumber]
 }
 
 
-class rockPaperScissors {
+class RockPaperScissors {
     constructor() {
         this.play = (userChoice) => {
             const droidChoice = getDroidChoice();

@@ -1,4 +1,4 @@
-const { RockPaperScissors } = require('/spec.helper.js')
+const { RockPaperScissors } = require('../spec.helper.js')
 const mockMath = Object.create(global.Math)
 mockMath.random = () => .5
 global.Math = mockMath
