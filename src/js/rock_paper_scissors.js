@@ -16,15 +16,15 @@ class RockPaperScissors {
                 case "rock-scissors":
                 case "paper-rock":
                 case "scissors-paper":
-                    return `You Win! The droid's choice was ${droidChoice}`;
+                    return `You Win! The droids choice was ${droidChoice}`;
                 case "rock-paper":
                 case "paper-scissors":
                 case "scissors-rock":
-                    return `You lost! The droid's choice was ${droidChoice}`;
+                    return `You lost! The droids choice was ${droidChoice}`;
                 case "rock-rock":
                 case "paper-paper":
                 case "scissors-scissors":
-                    return `These are not the droids you're looking for! The droid's choice was ${droidChoice}`;
+                    return `These are not the droids you're looking for! The droids choice was ${droidChoice}`;
             }
         };
     }
