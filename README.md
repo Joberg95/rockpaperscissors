@@ -3,7 +3,7 @@
 
 ## Deployment
 
-[RockPaperScissors](https://rockjediscissors.netlify.com/)
+[RockPaperScissors](https://rockpaperjedi.netlify.com/)
 
 ## Author
 
