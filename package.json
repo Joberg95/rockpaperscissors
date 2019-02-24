@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/nevroje/rockpaperscissors#readme",
   "dependencies": {
-    "e2e_training_wheels": "0.0.36"
+    "e2e_training_wheels": "0.0.36",
+    "jest-mock-random": "^1.0.2"
   },
   "bin": {
     "training-wheels:generate": "node ./node_modules/e2e_training_wheels/dist/generators.js",
